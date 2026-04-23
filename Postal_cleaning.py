@@ -165,7 +165,7 @@ district_codes = {'01': 1,
                   '82': 19
                   }
 
-df = pd.read_excel('output_cleaned.xlsx', 'Cleaned', converters={'POSTAL':str})
+df = pd.read_excel('output_cleaned.xlsx', converters={'POSTAL':str})
 # print(df['POSTAL'])
 
 #res = df.dtypes
